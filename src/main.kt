@@ -2,6 +2,8 @@ fun main(){
     oddnum()
     println( names(arrayOf("Pascaline","Verite","judy","Timothy","Safe")))
     Serve(18)
+    Serve(4)
+    Serve(8)
     reaction()
 
 }
@@ -32,10 +34,10 @@ fun names(namez:Array<String>):Int{
 //their age. (2pts)
 
 fun Serve(guest:Int){
-   if(guest <= 6 && guest>=6){
-       println("fanta Orange")
+   if(guest < 6 ){
+       println("milk")
    }
-    else if(guest<= 15){
+    else if(guest< 15 && guest>6){
         println("fanta Orange")
    }
     else{
